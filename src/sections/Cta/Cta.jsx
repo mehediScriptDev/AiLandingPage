@@ -62,7 +62,7 @@ const Cta = () => {
       <div className="relative px-6 lg:px-10 py-10 lg:py-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-8 relative z-10">
+          <div className="lg:space-y-8 space-y-4 relative z-10">
             <div className="max-w-lg">
               <SectionTitle
                 title={"SELL MORE WITH AI & COACH EVERY IN-HOME SALE."}
@@ -85,7 +85,7 @@ const Cta = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-2.5 lg:gap-4">
-              <button className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
+              <button className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
                 Book a live Demo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
@@ -177,7 +177,7 @@ const Cta = () => {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="grid grid-cols-3 gap-3 py-6"
+            className="grid grid-cols-3 gap-3 py-3 lg:py-6"
           >
             
                 {logos2.map((logo, index) => (

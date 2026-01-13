@@ -4,10 +4,10 @@ import { Facebook, Youtube, Instagram, Linkedin } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-black text-white">
-      <div className="max-w-7xl w-11/12 mx-auto pt-16 pb-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+      <div className="max-w-7xl w-11/12 mx-auto pt-8 lg:pt-16 pb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 lg:gap-12 mb-6 lg:mb-12">
           {/* Newsletter Section */}
-          <div className="lg:col-span-2 space-y-6 max-w-xs">
+          <div className="lg:col-span-2 lg:space-y-6 space-y-3 max-w-xs">
             <div className="flex items-center gap-2 mb-6">
               <span className="text-2xl font-bold tracking-tight uppercase">simupitch ai</span>
               <div className="flex gap-1">
@@ -17,7 +17,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <h3 className="text-xl font-bold mb-4">Join The Sales Fix!</h3>
+            <h3 className="lg:text-xl text-lg font-bold mb-4">Join The Sales Fix!</h3>
             
             <div className="bg-gray-800 rounded-lg p-6 mb-4">
               <div className="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -47,8 +47,8 @@ const Footer = () => {
 
           {/* Industry Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Industry</h3>
-            <ul className="space-y-3">
+            <h3 className="text-lg font-semibold lg:mb-6 mb-3">Industry</h3>
+            <ul className="lg:space-y-3 space-y-1">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Home Remodeling</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Home Services</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Painting</a></li>
@@ -63,8 +63,8 @@ const Footer = () => {
 
           {/* Company Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Company</h3>
-            <ul className="space-y-3">
+            <h3 className="text-lg font-semibold lg:mb-6 mb-3">Company</h3>
+            <ul className="lg:space-y-3 space-y-1">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">About us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Careers</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Code of Conduct</a></li>
@@ -76,8 +76,8 @@ const Footer = () => {
 
           {/* Resources Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Resources</h3>
-            <ul className="space-y-3">
+            <h3 className="text-lg font-semibold lg:mb-6 mb-3">Resources</h3>
+            <ul className="lg:space-y-3 space-y-1">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Blog</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">FAQ</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Customer Stories</a></li>
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
 
         {/* App Store Buttons */}
-        <div className="flex flex-wrap gap-4 mb-12">
+        <div className="flex flex-wrap gap-4 mb-6 lg:mb-12">
           <a href="#" className="bg-white text-black rounded-lg px-6 py-3 flex items-center gap-3 hover:bg-gray-100 transition-colors">
             <svg className="w-8 h-8" viewBox="0 0 24 24">
               <path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />

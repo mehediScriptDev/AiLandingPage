@@ -39,7 +39,7 @@ const Features = () => {
 
       </div>
 
-      <div className="lg:container py-10 w-11/12 mx-auto">
+      <div className="container">
         {/* Section Header */}
         <div className="text-center flex justify-center items-center flex-col max-w-3xl mx-auto mb-6 lg:mb-16 space-y-1.5">
           <SectionBadge text="Features"/>

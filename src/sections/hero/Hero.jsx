@@ -5,7 +5,7 @@ import HeroTitle from "./components/HeroTitle";
 const Hero = () => {
   return (
     <div
-      className="relative lg:h-[98vh]"
+      className="relative  "
       style={{
         backgroundImage: `url(images/herobg.jpg)`,
         backgroundSize: "cover",
@@ -19,7 +19,7 @@ const Hero = () => {
       {/* background main gradient color */}
       <div className="bg-black/95 absolute inset-0 z-0"></div>
       <div className="bg-linear-to-b absolute inset-0 z-10 h- from-primary/20 via-black/30 to-black/30"></div>
-      <div className="max-w-7xl w-11/12 mx-auto lg:py-20 relative z-40 flex items-center pt-28">
+      <div className="max-w-7xl w-11/12 mx-auto lg:pt-20 relative z-40 flex items-center pt-28 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="lg:space-y-8 space-y-4">
