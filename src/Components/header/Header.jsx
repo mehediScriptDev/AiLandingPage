@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Header = () => {
   const links = (
@@ -44,15 +44,16 @@ const Header = () => {
         </nav>
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
-          <a
-            href="#login"
+          <Link
+            to="https://simupitch.ai/login"
+            target="_blank"
             className="text-sm hover:text-gray-300 transition-colors"
           >
             Login
-          </a>
-          <button className="bg-primary cursor-pointer text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
+          </Link>
+          <Link to={"https://simupitch.ai/login"} target="_blank" className="bg-primary cursor-pointer text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
             Get Started
-          </button>
+          </Link>
         </div>
       </div>
     </header>

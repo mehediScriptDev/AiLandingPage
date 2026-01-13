@@ -1,5 +1,6 @@
 import { ArrowRight, Star } from "lucide-react";
-import React from "react";
+import SectionSubTitle from "../../Components/common/SectionSubTitle";
+import HeroTitle from "./components/HeroTitle";
 
 const Hero = () => {
   return (
@@ -14,22 +15,18 @@ const Hero = () => {
     >
       {/* background main gradient color */}
       <div className="bg-black/95 absolute inset-0 z-0"></div>
-      <div className="bg-gradient-to-b absolute inset-0 z-10 h- from-primary/20 via-black/30 to-black/30"></div>
-      <div className="max-w-7xl mx-auto py-20 relative z-40 flex items-center pt-45">
+      <div className="bg-linear-to-b absolute inset-0 z-10 h- from-primary/20 via-black/30 to-black/30"></div>
+      <div className="max-w-7xl mx-auto py-20 relative z-40 flex items-center pt-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
-            <h1 className="text-5xl text-white font-black leading-tight">
-              BOOST SALES CONVERSIONS WITH AI SALES COACHING FOR PLUMBERS
-            </h1>
+            <HeroTitle title={"BOOST SALES CONVERSIONS WITH AI SALES COACHING FOR PLUMBERS"} />
 
-            <p className="text-lg text-gray-300 leading-tight max-w-xl">
-              Learn how Sales Ask AI works as your AI sales coach, delivering
+            <SectionSubTitle subtitle="Learn how Sales Ask AI works as your AI sales coach, delivering
               AI-powered sales coaching to boost close rates, increase job
               value, and scale service businesses. From AI sales coaching for
               plumbers to painting contractors, AI coaching helps your team sell
-              smarter. Schedule a demo now.
-            </p>
+              smarter. Schedule a demo now." />
 
             <button className="group bg-primary text-white font-semibold px-8 py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
               See it in action
@@ -78,7 +75,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-white rounded-full blur-2xl opacity-20"></div>
               <img
-                src="images/herobg.jpg"
+                src="images/demo.avif"
                 className="relative z-10 rounded-lg"
                 style={{
                   filter: "drop-shadow(0 0 20px rgba(255, 255, 255, 0.3))",
