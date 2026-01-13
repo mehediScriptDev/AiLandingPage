@@ -4,7 +4,7 @@ import { Facebook, Youtube, Instagram, Linkedin } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-black text-white">
-      <div className="max-w-7xl mx-auto pt-16 pb-4">
+      <div className="max-w-7xl w-11/12 mx-auto pt-16 pb-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           {/* Newsletter Section */}
           <div className="lg:col-span-2 space-y-6 max-w-xs">

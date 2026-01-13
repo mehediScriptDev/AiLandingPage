@@ -15,9 +15,9 @@ const Header = () => {
       <li>
         <NavLink className={'hover:text-primary'} to={""}>FAQ</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink className={'hover:text-primary'} to={""}>Contact</NavLink>
-      </li>
+      </li> */}
     </>
   );
   return (

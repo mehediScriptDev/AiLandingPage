@@ -16,7 +16,7 @@ const Hero = () => {
       {/* background main gradient color */}
       <div className="bg-black/95 absolute inset-0 z-0"></div>
       <div className="bg-linear-to-b absolute inset-0 z-10 h- from-primary/20 via-black/30 to-black/30"></div>
-      <div className="max-w-7xl mx-auto py-20 relative z-40 flex items-center pt-28">
+      <div className="max-w-7xl w-11/12 mx-auto py-20 relative z-40 flex items-center pt-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">

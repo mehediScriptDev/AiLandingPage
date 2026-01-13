@@ -35,13 +35,13 @@ const Features = () => {
     <section id="features" className=" relative">
       {/* Background */}
       
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/20 via-primary/1 to-black/20">
+      <div className="absolute inset-0 -z-10 bg-linear-to-r from-black/20 via-primary/1 to-black/20">
 
       </div>
 
       <div className="container mx-auto">
         {/* Section Header */}
-        <div className="text-center flex justify-center items-center flex-col max-w-3xl mx-auto mb-16">
+        <div className="text-center flex justify-center items-center flex-col max-w-3xl mx-auto mb-16 space-y-1.5">
           <SectionBadge text="Features"/>
           <SectionTitle title={"Everything You Need to Win More Deals"}/>
           <SectionSubTitle subtitle="Powerful AI tools designed specifically for modern sales teams who want to 

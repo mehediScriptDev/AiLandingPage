@@ -18,7 +18,7 @@
     --color-primaryText:#dbdbda;
 }
 .container{
-    @apply max-w-7xl mx-auto py-20;
+    @apply max-w-7xl mx-auto py-20 w-11/12;
 }
 
 body{
