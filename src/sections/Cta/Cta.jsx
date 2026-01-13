@@ -85,10 +85,10 @@ const Cta = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-2.5 lg:gap-4">
-              <button className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
+              <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-fit">
                 Book a live Demo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
             </div>
           </div>
 

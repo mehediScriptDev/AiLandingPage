@@ -5,6 +5,7 @@ import HeroTitle from "./components/HeroTitle";
 const Hero = () => {
   return (
     <div
+      id="hero"
       className="relative  "
       style={{
         backgroundImage: `url(images/herobg.jpg)`,
@@ -31,10 +32,10 @@ const Hero = () => {
               plumbers to painting contractors, AI coaching helps your team sell
               smarter. Schedule a demo now." />
 
-            <button className="group bg-primary text-white font-semibold text-sm lg:text-base lg:px-8 px-4 py-3 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
+            <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="group bg-primary text-white font-semibold text-sm lg:text-base lg:px-8 px-4 py-3 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-fit">
               See it in action
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
 
             
             <div>

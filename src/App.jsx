@@ -8,21 +8,26 @@ import Features from "./sections/features/Features";
 import Hero from "./sections/hero/Hero";
 import { StepsSection } from "./sections/howItWorks/StepsSection";
 import TrustBadge from "./sections/TrustBadge/TrustBadge";
+import SmoothScroll from "./Components/utility/SmoothScroll";
+import ScrollToTopButton from "./Components/utility/ScrollToTopButton";
 
 
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Hero/>
-      <TrustBadge/>
-      <Features/>
-      <StepsSection/>
-      <Faq/>
-      <Cta/>
-      <Footer/>
-    </div>
+    <SmoothScroll>
+      <div>
+        <Header/>
+        <Hero/>
+        <TrustBadge/>
+        <Features/>
+        <StepsSection/>
+        <Faq/>
+        <Cta/>
+        <Footer/>
+        <ScrollToTopButton />
+      </div>
+    </SmoothScroll>
   );
 }
 

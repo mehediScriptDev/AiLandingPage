@@ -14,22 +14,37 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const offset = 80; // Header height offset
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+      setIsMenuOpen(false);
+    }
+  };
+
   const links = (
     <>
       <li>
-        <NavLink className={'hover:text-primary transition-colors'} to={"/"}>Product</NavLink>
+        <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors cursor-pointer">Home</button>
       </li>
       <li>
-        <NavLink className={'hover:text-primary transition-colors'} to={""}>Solutions</NavLink>
+        <button onClick={() => scrollToSection('features')} className="hover:text-primary transition-colors cursor-pointer">Features</button>
       </li>
       <li>
-        <NavLink className={'hover:text-primary transition-colors'} to={""}>Success Stories</NavLink>
+        <button onClick={() => scrollToSection('how-it-works')} className="hover:text-primary transition-colors cursor-pointer">How It Works</button>
       </li>
       <li>
-        <NavLink className={'hover:text-primary transition-colors'} to={""}>Partners</NavLink>
+        <button onClick={() => scrollToSection('faq')} className="hover:text-primary transition-colors cursor-pointer">FAQ</button>
       </li>
       <li>
-        <NavLink className={'hover:text-primary transition-colors'} to={""}>Resources</NavLink>
+        <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Resources</a>
       </li>
     </>
   );
@@ -89,7 +104,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`lg:hidden absolute inset-0 top-[72px] bg-black backdrop-blur-md transition-all duration-300 ${
+      <div className={`lg:hidden absolute inset-0 top-18 bg-black backdrop-blur-md transition-all duration-300 ${
         isMenuOpen ? 'opacity-100 visible bg-black' : 'opacity-0 invisible'
       }`}>
         <nav className="flex flex-col h-full p-6 z-50 bg-black">

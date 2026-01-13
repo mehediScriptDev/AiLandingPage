@@ -4,33 +4,33 @@ import SectionTitle from "../../Components/common/SectionTitle";
 import SectionBadge from "../../Components/common/SectionBadge";
 
 const Faq = () => {
-  const [openItem, setOpenItem] = useState(6);
+  const [openItem, setOpenItem] = useState(null);
 
   const faqItems = [
     {
       id: 1,
       question: "Is it legal to record conversations with clients?",
-      answer: "",
+      answer: "Yes, it's legal in most states with one-party consent. We recommend informing customers at the beginning of calls that conversations may be recorded for quality and training purposes. Our platform includes customizable consent scripts and compliance tools to help you meet local regulations.",
     },
     {
       id: 2,
       question: "How will my sales reps react to being recorded?",
-      answer: "",
+      answer: "Initially, there may be some hesitation, but most reps quickly appreciate the personalized coaching and feedback. The AI helps them improve their skills, close more deals, and earn more commissions. Many sales teams report increased confidence and better performance within the first few weeks.",
     },
     {
       id: 3,
       question: "How does the AI work for trades sales?",
-      answer: "",
+      answer: "Our AI is specifically trained on home service sales conversations. It analyzes talk patterns, objection handling, pricing strategies, and closing techniques unique to trades like plumbing, HVAC, roofing, and remodeling. Coach Dean provides actionable insights based on what actually works in the field.",
     },
     {
       id: 4,
       question: "How long does setup take?",
-      answer: "",
+      answer: "Most teams are up and running within one week. Our onboarding process includes integration with your existing tools, customization to match your sales process, and team training. You'll start seeing valuable insights from your first recorded conversations.",
     },
     {
       id: 5,
       question: "How secure is my recorded data?",
-      answer: "",
+      answer: "We take security seriously. All data is encrypted in transit and at rest using bank-level encryption. We're SOC 2 compliant and undergo regular security audits. Your conversations and customer data are stored on secure servers with strict access controls and are never shared with third parties.",
     },
     {
       id: 6,
@@ -46,7 +46,7 @@ const Faq = () => {
   };
 
   return (
-    <section className=" text-white container">
+    <section id="faq" className=" text-white container">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-6 lg:mb-12">
@@ -85,11 +85,15 @@ const Faq = () => {
                 </div>
               </button>
 
-              {openItem === item.id && item.answer && (
+              <div
+                className={`transition-all duration-500 ease-in-out overflow-hidden ${
+                  openItem === item.id ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                }`}
+              >
                 <div className="px-6 pb-6 pt-2">
-                  <p className="text-gray-300 leading-relaxed">{item.answer}</p>
+                  <p className="text-gray-300 leading-relaxed text-sm lg:text-base">{item.answer}</p>
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>

@@ -36,7 +36,7 @@ const steps = [
 
 export const StepsSection = () => {
   return (
-    <section className="relative bg-background container mx-auto">
+    <section id="how-it-works" className="relative bg-background container mx-auto">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         {/* Section header */}
         <motion.div
