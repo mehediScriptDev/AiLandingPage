@@ -49,7 +49,7 @@ const Faq = () => {
     <section className=" text-white container">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-6 lg:mb-12">
           <SectionBadge text="HAVE QUESTIONS?" />
 
           <SectionTitle
@@ -59,7 +59,7 @@ const Faq = () => {
         </div>
 
         {/* FAQ Items */}
-        <div className="space-y-4">
+        <div className="lg:space-y-4 sm:space-y-2.5 space-y-1.5">
           {faqItems.map((item) => (
             <div
               key={item.id}
@@ -69,16 +69,16 @@ const Faq = () => {
                 onClick={() => toggleItem(item.id)}
                 className="w-full px-6 py-5 flex items-center justify-between text-left cursor-pointer hover:bg-opacity-30 transition-colors"
               >
-                <span className="text-lg font-medium pr-8">
+                <span className="lg:text-lg text-sm font-medium pr-8">
                   {item.question}
                 </span>
                 <div className="shrink-0">
                   {openItem === item.id ? (
-                    <div className="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center">
+                    <div className="lg:w-8 lg:h-8 h-6 w-6 rounded-full border-2 border-white flex items-center justify-center">
                       <Minus className="w-4 h-4" />
                     </div>
                   ) : (
-                    <div className="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center">
+                    <div className="lg:w-8 lg:h-8 h-6 w-6 rounded-full border-2 border-white flex items-center justify-center">
                       <Plus className="w-4 h-4" />
                     </div>
                   )}

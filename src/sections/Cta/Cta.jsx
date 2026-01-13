@@ -59,10 +59,10 @@ const Cta = () => {
 
   return (
     <section className="bg-linear-to-r from-black/30 via-primary/10 to-black/30 max-w-7xl border border-gray-800 w-11/12 mx-auto rounded-lg text-white mb-10 relative overflow-hidden">
-      <div className="relative px-10">
+      <div className="relative px-6 lg:px-10 py-10 lg:py-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-8  relative z-10">
+          <div className="space-y-8 relative z-10">
             <div className="max-w-lg">
               <SectionTitle
                 title={"SELL MORE WITH AI & COACH EVERY IN-HOME SALE."}
@@ -84,8 +84,8 @@ const Cta = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-wrap items-center gap-4">
-              <button className="group bg-primary text-white font-semibold px-8 py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
+            <div className="flex flex-wrap items-center gap-2.5 lg:gap-4">
+              <button className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl">
                 Book a live Demo
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>

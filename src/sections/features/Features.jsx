@@ -39,9 +39,9 @@ const Features = () => {
 
       </div>
 
-      <div className="container mx-auto">
+      <div className="lg:container py-10 w-11/12 mx-auto">
         {/* Section Header */}
-        <div className="text-center flex justify-center items-center flex-col max-w-3xl mx-auto mb-16 space-y-1.5">
+        <div className="text-center flex justify-center items-center flex-col max-w-3xl mx-auto mb-6 lg:mb-16 space-y-1.5">
           <SectionBadge text="Features"/>
           <SectionTitle title={"Everything You Need to Win More Deals"}/>
           <SectionSubTitle subtitle="Powerful AI tools designed specifically for modern sales teams who want to 
@@ -49,7 +49,7 @@ const Features = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:gap-6 gap-2.5">
           {features.map((feature, index) => (
             <div
               key={index}

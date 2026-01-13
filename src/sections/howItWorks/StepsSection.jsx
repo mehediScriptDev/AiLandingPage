@@ -72,10 +72,6 @@ export const StepsSection = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="relative"
               >
-                {/* Number circle */}
-                {/* <div className="absolute left-1/2 top-0 z-10 flex h-12 w-12 backdrop-blur-2xl blur-white/20 -translate-x-1/2 items-center justify-center rounded-full bg-primary text-lg font-bold text-primary-foreground shadow-lg glow-shadow">
-                  {step.number}
-                </div> */}
                 <div className="absolute left-1/2 top-0 z-10 -translate-x-1/2">
                   {/* Glow layer */}
                   <div

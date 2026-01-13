@@ -56,7 +56,7 @@ const TrustBadge = () => {
     },
   ];
   return (
-    <div className="py-20 w-11/12 mx-auto space-y-8">
+    <div className="lg:py-20 py-10 w-11/12 mx-auto space-y-4 lg:space-y-8">
       <div className="max-w-4xl mx-auto">
         <SectionTitle
           title="Trusted by hundreds of Companies across the globe"
@@ -66,7 +66,7 @@ const TrustBadge = () => {
 
       {/* Client Testimonials */}
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-6 gap-2.5 mb-6">
           {/* Testimonial 1 */}
           <div className="group relative overflow-hidden rounded-xl bg-[#0e0e0e] p-6 shadow-sm hover:shadow-xl transition-all duration-300">
             <div className="flex items-start gap-4 mb-4">
@@ -147,19 +147,19 @@ const TrustBadge = () => {
         </div>
 
         {/* Stats Row */}
-        <div className="flex flex-wrap justify-center items-center gap-8 mb-12 text-center">
-          <div className="min-w-35">
-            <div className="text-4xl font-bold text-[#dbdbda] mb-1">250K+</div>
+        <div className="flex flex-wrap justify-center items-center lg:gap-8 gap-4 lg:mb-12 text-center">
+          <div className="">
+            <div className="lg:text-4xl text-2xl font-bold text-primaryText lg:mb-1">250K+</div>
             <div className="text-sm text-gray-400">Active Users</div>
           </div>
           <div className="hidden md:block w-px h-12 bg-primary"></div>
-          <div className="min-w-35">
-            <div className="text-4xl font-bold text-[#dbdbda] mb-1">98%</div>
+          <div className="">
+            <div className="lg:text-4xl text-2xl font-bold text-primaryText lg:mb-1">98%</div>
             <div className="text-sm text-gray-400">Satisfaction Rate</div>
           </div>
           <div className="hidden md:block w-px h-12 bg-primary"></div>
-          <div className="min-w-35">
-            <div className="text-4xl font-bold text-[#dbdbda] mb-1">50+</div>
+          <div className="">
+            <div className="lg:text-4xl text-2xl font-bold text-primaryText lg:mb-1">50+</div>
             <div className="text-sm text-gray-400">Countries</div>
           </div>
         </div>
