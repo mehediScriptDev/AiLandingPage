@@ -1,79 +1,91 @@
+# Tareen Hossain — Marketing Landing (Vite + React)
 
-<p align="center">
-	<img src="public/crapui.jpg" alt="CrapUI logo" width="240" />
-</p>
+A modern, responsive marketing landing built with React and Vite. This repository contains a lightweight component-driven UI focused on clarity, accessible layout, and smooth scroll interactions — ideal as a starter for product or personal landing pages.
 
-# CrapUI
+## Demo
 
-A small React component library designed for fast prototyping and sensible defaults. This repository contains a minimal example app and the base setup used while developing CrapUI.
+- Open the app locally (instructions below) to preview the demo.
 
-## Technologies & versions used
+## Features
 
-**Runtime**
-- React: 19.2.0
-- React DOM: 19.2.0
+- Clean, componentized React structure
+- Fast dev experience with Vite
+- Responsive hero, features, FAQ, CTA, and trust/logo loop
+- Smooth scrolling utilities and scroll-to-top controls
+- Opinionated styling with Tailwind-compatible setup
 
-**Build / Dev**
-- Vite: 7.2.4
-- @vitejs/plugin-react: 5.1.1
+## Tech Stack
 
-**Styling**
-- Tailwind CSS: 4.1.18
-- @tailwindcss/vite: 4.1.18
+- React 19
+- Vite
+- Tailwind-compatible tooling
+- ESLint for linting
 
-**Icons / Utilities**
-- react-icons: 5.5.0
-- lucide: 0.562.0
-- react-router: 7.12.0
+## Getting Started
 
-**Lint / Dev tooling**
-- ESLint: 9.39.1
-- @eslint/js: 9.39.1
+Prerequisites
 
-> These versions are taken from the project's `package.json` at the time of editing.
+- Node.js 18+ (or compatible LTS)
 
-## Getting started
-
-> Prerequisites: Node.js (recommended v18+), npm
-
-Install dependencies:
+Install
 
 ```bash
 npm install
 ```
 
-Run the dev server:
+Run development server
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+Build for production
 
 ```bash
 npm run build
 ```
 
-Preview production build locally:
+Preview production build
 
 ```bash
 npm run preview
 ```
 
-## Project structure (highlight)
+Run linter
 
-- `src/` — React source files (components, pages, context)
-- `public/` — static assets (logo used above: `public/crapui.jpg`)
-- `index.html`, `vite.config.js` — Vite entry and config
+```bash
+npm run lint
+```
 
-## Example usage
+## Project Structure (high level)
 
-Open `src/App.jsx` to see a clean example of how the library's components are composed in a landing page.
+- `index.html` — Vite entry
+- `src/main.jsx` — app bootstrap and router mount
+- `src/App.jsx` — root layout
+- `src/router/routes.jsx` — route definitions
+- `src/sections/` — page sections (Hero, Features, CTA, FAQ, HowItWorks, TrustBadge)
+- `src/Components/` — shared UI components (Header, Footer, common pieces, utility helpers)
 
-## Contributing
+Notable components:
 
-Contributions are welcome. Open an issue to discuss changes or submit a pull request. Keep changes small and focused; include basic tests or a short demo page when adding new components.
+- `Header.jsx` / `Footer.jsx` — site chrome
+- `Hero/*` — hero content and title components
+- `TrustBadge/LogoLoop.jsx` — scrolling logo loop for trust
+- `utility/ScrollToTop*` — scroll helpers and a floating button
+
+## Customization
+
+- Replace images in `public/images/` and adjust copy inside the relevant section components.
+- Tweak styles in `src/App.css` and `index.css` (or adapt to your Tailwind config).
+
+## Deployment
+
+Build with `npm run build` and deploy the contents of `dist/` to any static host (Netlify, Vercel, GitHub Pages, etc.).
+
+#
+
+## License
+
+This project has no license specified. Add a `LICENSE` file or update `package.json` to include a license if you plan to publish.
 
 ---
-
-_Made with a pinch of sarcasm — CrapUI_
