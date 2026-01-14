@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
           <div >
 
-            {/* Plumber Image with white outline */}
+            {/* Plumber Image with white outline here */}
             <div className="relative">
               <div className="lg:absolute lg:inset-0 bg-white rounded-full blur-2xl opacity-20"></div>
               <img
