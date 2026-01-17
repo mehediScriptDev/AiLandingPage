@@ -9,36 +9,36 @@ const Faq = () => {
   const faqItems = [
     {
       id: 1,
-      question: "Is it legal to record conversations with clients?",
-      answer: "Yes, it's legal in most states with one-party consent. We recommend informing customers at the beginning of calls that conversations may be recorded for quality and training purposes. Our platform includes customizable consent scripts and compliance tools to help you meet local regulations.",
+      question: "What is SimuPitch AI?",
+      answer: "SimuPitch AI is an AI-powered sales simulation platform that helps sales professionals practice, refine, and optimize pitches using simulated real-world scenarios and AI-driven feedback.",
     },
     {
       id: 2,
-      question: "How will my sales reps react to being recorded?",
-      answer: "Initially, there may be some hesitation, but most reps quickly appreciate the personalized coaching and feedback. The AI helps them improve their skills, close more deals, and earn more commissions. Many sales teams report increased confidence and better performance within the first few weeks.",
+      question: "Who is it for?",
+      answer: "Anyone who sells—new reps building confidence, experienced reps refining their message, and leaders who want a consistent way to coach.",
     },
     {
       id: 3,
-      question: "How does the AI work for trades sales?",
-      answer: "Our AI is specifically trained on home service sales conversations. It analyzes talk patterns, objection handling, pricing strategies, and closing techniques unique to trades like plumbing, HVAC, roofing, and remodeling. Coach Dean provides actionable insights based on what actually works in the field.",
+      question: "What do I get after each simulation? ",
+      answer: "AI-driven feedback to help you improve your pitch and run the next rep stronger.",
     },
     {
       id: 4,
-      question: "How long does setup take?",
-      answer: "Most teams are up and running within one week. Our onboarding process includes integration with your existing tools, customization to match your sales process, and team training. You'll start seeing valuable insights from your first recorded conversations.",
+      question: "Do I need a sales script to start?",
+      answer: "No—you can start with what you already say today, then refine from there.",
     },
     {
       id: 5,
-      question: "How secure is my recorded data?",
-      answer: "We take security seriously. All data is encrypted in transit and at rest using bank-level encryption. We're SOC 2 compliant and undergo regular security audits. Your conversations and customer data are stored on secure servers with strict access controls and are never shared with third parties.",
+      question: "Can teams use SimuPitch AI? ",
+      answer: "Yes—SimuPitch AI is designed to work for individual practice and team-wide training loops (customize this line if you have specific team features).",
     },
-    {
-      id: 6,
-      question:
-        "How does SalesAsk compare to Rilla for home service companies?",
-      answer:
-        'While Rilla focuses on "virtual ride-alongs" and visibility for managers, SalesAsk is built for behavioral change. Developed by contractors, SalesAsk uses AI (Coach Dean) to actually score your reps on their sales process, like objection handling and price anchoring, rather than just recording the conversation. Plus, SalesAsk is typically 40% more cost-effective with no rigid seat minimums.',
-    },
+    // {
+    //   id: 6,
+    //   question:
+    //     "How does SalesAsk compare to Rilla for home service companies?",
+    //   answer:
+    //     'While Rilla focuses on "virtual ride-alongs" and visibility for managers, SalesAsk is built for behavioral change. Developed by contractors, SalesAsk uses AI (Coach Dean) to actually score your reps on their sales process, like objection handling and price anchoring, rather than just recording the conversation. Plus, SalesAsk is typically 40% more cost-effective with no rigid seat minimums.',
+    // },
   ];
 
   const toggleItem = (id) => {

@@ -32,20 +32,18 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors cursor-pointer">Home</button>
+        <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors cursor-pointer">Product</button>
       </li>
       <li>
-        <button onClick={() => scrollToSection('features')} className="hover:text-primary transition-colors cursor-pointer">Features</button>
+        <button onClick={() => scrollToSection('features')} className="hover:text-primary transition-colors cursor-pointer">How It Works</button>
       </li>
       <li>
-        <button onClick={() => scrollToSection('how-it-works')} className="hover:text-primary transition-colors cursor-pointer">How It Works</button>
+        <button onClick={() => scrollToSection('how-it-works')} className="hover:text-primary transition-colors cursor-pointer">Use Cases</button>
       </li>
       <li>
         <button onClick={() => scrollToSection('faq')} className="hover:text-primary transition-colors cursor-pointer">FAQ</button>
       </li>
-      <li>
-        <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Resources</a>
-      </li>
+      
     </>
   );
 
@@ -87,7 +85,7 @@ const Header = () => {
             target="_blank" 
             className="bg-primary hover:bg-primary/90 cursor-pointer text-white text-sm font-medium px-6 py-2.5 rounded-full transition-all"
           >
-            Book demo
+            Get Started
           </Link>
         </div>
 
@@ -127,7 +125,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-center py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-all"
             >
-              Book demo
+              Get Started
             </Link>
           </div>
         </nav>

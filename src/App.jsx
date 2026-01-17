@@ -10,6 +10,10 @@ import { StepsSection } from "./sections/howItWorks/StepsSection";
 import TrustBadge from "./sections/TrustBadge/TrustBadge";
 import SmoothScroll from "./Components/utility/SmoothScroll";
 import ScrollToTopButton from "./Components/utility/ScrollToTopButton";
+import UseCases from "./sections/useCases/UseCases";
+import SocialProof from "./sections/socialProof/SocialProof";
+import WhatItIs from "./sections/whatItIs/WhatItIs";
+import FeaturesDetailed from "./sections/featuresDetailed/FeaturesDetailed";
 
 
 
@@ -19,6 +23,10 @@ function App() {
       <div>
         <Header/>
         <Hero/>
+        <SocialProof/>
+        <UseCases/>
+        <WhatItIs/>
+        <FeaturesDetailed/>
         <TrustBadge/>
         <Features/>
         <StepsSection/>
