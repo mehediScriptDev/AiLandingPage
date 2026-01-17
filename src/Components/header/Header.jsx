@@ -35,10 +35,10 @@ const Header = () => {
         <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors cursor-pointer">Product</button>
       </li>
       <li>
-        <button onClick={() => scrollToSection('features')} className="hover:text-primary transition-colors cursor-pointer">How It Works</button>
+        <button onClick={() => scrollToSection('how-it-works')} className="hover:text-primary transition-colors cursor-pointer">How It Works</button>
       </li>
       <li>
-        <button onClick={() => scrollToSection('how-it-works')} className="hover:text-primary transition-colors cursor-pointer">Use Cases</button>
+        <button onClick={() => scrollToSection('use-cases')} className="hover:text-primary transition-colors cursor-pointer">Use Cases</button>
       </li>
       <li>
         <button onClick={() => scrollToSection('faq')} className="hover:text-primary transition-colors cursor-pointer">FAQ</button>

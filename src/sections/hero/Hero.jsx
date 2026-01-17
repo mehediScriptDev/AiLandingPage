@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="lg:space-y-8 space-y-4 ">
             <HeroTitle title={"Simulate. Sell. Scale. "} />
 
-            <SectionSubTitle  subtitle="SimuPitch AI is your AI-powered sales simulation platform—practice your pitch in realistic scenarios and get feedback that helps you sharpen your delivery, handle objections, and build confidence before the next real conversation." />
+            <SectionSubTitle subtitle="SimuPitch AI is your AI-powered sales simulation platform—practice your pitch in realistic scenarios and get feedback that helps you sharpen your delivery, handle objections, and build confidence before the next real conversation." />
 
             <div className="flex sm:flex-row flex-col w-full items-center gap-3 sm:gap-4">
               <a
@@ -41,7 +41,7 @@ const Hero = () => {
                 href="https://simupitch.ai/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group border border-primaryText text-primaryText font-semibold text-sm lg:text-base lg:px-8 px-4 py-2.5 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-full justify-center sm:w-fit"
+                className="group border border-primaryText/30 text-primaryText font-semibold text-sm lg:text-base lg:px-8 px-4 py-2.5 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-full justify-center sm:w-fit"
               >
                 See How It Works
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -50,21 +50,21 @@ const Hero = () => {
 
             {/* Micro-points under CTA */}
             <ul className="lg:space-y-3 space-y-1.5 lg:pt-4 pt-2 text-gray-300">
-              <li className="flex items-center gap-3">
-                <IoCheckmarkSharp className="w-5 h-5 text-primary shrink-0" />
-                <span className=" text-sm xl:text-base">
+              <li className="flex items-center lg:gap-3 gap-1.5">
+                <IoCheckmarkSharp className="lg:w-5 lg:h-5 w-4 h-4 text-primary shrink-0" />
+                <span className="text-xs sm:text-sm xl:text-base">
                   Practice in simulated real-world sales conversations
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <IoCheckmarkSharp className="w-5 h-5 text-primary shrink-0" />
-                <span className=" text-sm xl:text-base">
+              <li className="flex items-center lg:gap-3 gap-1.5">
+                <IoCheckmarkSharp className="lg:w-5 lg:h-5 w-4 h-4 text-primary shrink-0" />
+                <span className="text-xs sm:text-sm xl:text-base">
                   Get AI-driven feedback to refine your pitch
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <IoCheckmarkSharp className="w-5 h-5 text-primary shrink-0" />
-                <span className=" text-sm xl:text-base">
+              <li className="flex items-center lg:gap-3 gap-1.5">
+                <IoCheckmarkSharp className="lg:w-5 lg:h-5 w-4 h-4 text-primary shrink-0" />
+                <span className="text-xs sm:text-sm xl:text-base">
                   Train consistently—without waiting for live reps
                 </span>
               </li>
