@@ -32,20 +32,18 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors cursor-pointer">Home</button>
-      </li>
-      <li>
-        <button onClick={() => scrollToSection('features')} className="hover:text-primary transition-colors cursor-pointer">Features</button>
+        <button onClick={() => scrollToSection('hero')} className="hover:text-primary transition-colors cursor-pointer">Product</button>
       </li>
       <li>
         <button onClick={() => scrollToSection('how-it-works')} className="hover:text-primary transition-colors cursor-pointer">How It Works</button>
       </li>
       <li>
-        <button onClick={() => scrollToSection('faq')} className="hover:text-primary transition-colors cursor-pointer">FAQ</button>
+        <button onClick={() => scrollToSection('use-cases')} className="hover:text-primary transition-colors cursor-pointer">Use Cases</button>
       </li>
       <li>
-        <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Resources</a>
+        <button onClick={() => scrollToSection('faq')} className="hover:text-primary transition-colors cursor-pointer">FAQ</button>
       </li>
+      
     </>
   );
 
@@ -56,14 +54,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <span className="text-2xl uppercase font-bold font-secondary tracking-tight">
-            simupitch ai
-          </span>
-          <div className="flex gap-1">
-            <div className="w-1 h-4 bg-primary rounded-full"></div>
-            <div className="w-1 h-4 bg-primary rounded-full"></div>
-            <div className="w-1 h-4 bg-primary rounded-full"></div>
-          </div>
+          <button onClick={() => scrollToSection('hero')} className="cursor-pointer">
+            <img src="/images/logo.png" className="lg:w-48 w-32" alt="SimuPitch AI Logo" />
+          </button>
         </div>
 
         {/* Navigation - Desktop */}
@@ -87,7 +80,7 @@ const Header = () => {
             target="_blank" 
             className="bg-primary hover:bg-primary/90 cursor-pointer text-white text-sm font-medium px-6 py-2.5 rounded-full transition-all"
           >
-            Book demo
+            Get Started
           </Link>
         </div>
 
@@ -127,7 +120,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-center py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-all"
             >
-              Book demo
+              Get Started
             </Link>
           </div>
         </nav>
