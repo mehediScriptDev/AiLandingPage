@@ -7,36 +7,39 @@ import SectionBadge from "../../Components/common/SectionBadge";
 const steps = [
   {
     number: "01",
-    title: "THE DEMO",
+    title: "Choose a scenario",
     description:
-      "Explore how Sales Ask's AI transforms your team's coaching process, giving you the ability to refine every sales conversation in minutes instead of hours.",
+      " Pick the type of sales conversation you want to improve—intro, discovery, pitch, objections, or closing.",
     image:
-      "https://smallbizclub.com/wp-content/uploads/2015/08/6-tips-to-get-the-most-out-of-your-next-client-meeting-735x414.jpg",
+      "/images/firsthow.jpg",
     imagePosition: "right",
   },
   {
     number: "02",
-    title: "ONBOARDING",
+    title: "Run the simulation",
     description:
-      "In just one week, we'll align with your business goals, fine-tune our AI to match your sales approach, and equip your team to unlock rapid growth.",
+      " Deliver your pitch in a realistic back-and-forth that adapts as you go.",
     image:
-      "https://www.allstarss.com/wp-content/uploads/iStock-1331428275-edit.jpg",
+      "/images/secondhow.jpg",
     imagePosition: "left",
   },
   {
     number: "03",
-    title: "SUCCESS",
+    title: "Get feedback and run it again ",
     description:
-      "Your dedicated Customer Success Manager will provide ongoing support with regular check-ins. Three months in, we'll review your performance gains and celebrate your ROI milestones together.",
+      "Review AI-driven coaching, apply the recommendations, and repeat until you’re confident.",
     image:
-      "https://priorityonepayroll.com/wp-content/uploads/2018/06/pop-client-meeting.jpg",
+      "/images/thirdhow.jpg",
     imagePosition: "right",
   },
 ];
 
 export const StepsSection = () => {
   return (
-    <section id="how-it-works" className="relative bg-background container mx-auto">
+    <section
+      id="how-it-works"
+      className="relative bg-background container mx-auto"
+    >
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         {/* Section header */}
         <motion.div

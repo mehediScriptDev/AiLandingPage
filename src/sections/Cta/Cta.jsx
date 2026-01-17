@@ -63,12 +63,12 @@ const Cta = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="lg:space-y-8 space-y-4 relative z-10">
-            <div className="max-w-lg">
+            <div className="max-w-lg space-y-2">
               <SectionTitle
-                title={"SELL MORE WITH AI & COACH EVERY IN-HOME SALE."}
+                title={"Your next pitch will be better than your last."}
               />
               <SectionSubTitle
-                subtitle={"Get Results in 21 Days. See it in action now!"}
+                subtitle={"Get out of “theory” and into real practice. Simulate real conversations, get AI-driven coaching, and build a pitch you can deliver with confidence."}
               />
             </div>
 
@@ -86,9 +86,16 @@ const Cta = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center gap-2.5 lg:gap-4">
               <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-fit">
-                Book a live Demo
+                Create Account
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
+              <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="group  text-white font-semibold lg:px-8 lg:py-4 px-4 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-fit">
+                Login
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
+
+
+
             </div>
           </div>
 

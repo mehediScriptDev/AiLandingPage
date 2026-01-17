@@ -38,7 +38,7 @@ const features = [
 
 const FeaturesDetailed = () => {
   return (
-    <section id="features-detailed" className="py-16 lg:py-24 relative">
+    <section id="features-detailed" className="py-10 lg:py-20 relative">
       <div className="absolute inset-0 -z-10"></div>
       <div className="absolute inset-0 -z-10 bg-linear-to-r from-black/20 via-primary/1 to-black/20">
 
@@ -59,7 +59,7 @@ const FeaturesDetailed = () => {
             return (
               <div
                 key={index}
-                className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm border border-white/10 rounded-xl p-6 lg:p-8 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 group"
+                className="bg-linear-to-br from-white/5 to-white/2 backdrop-blur-sm border border-white/10 rounded-xl p-6 lg:p-8 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 transition-all duration-300 group"
               >
                 <div className="bg-primary/20 rounded-lg p-3 w-fit mb-5 group-hover:bg-primary/30 transition-colors">
                   <Icon className="w-6 h-6 lg:w-7 lg:h-7 text-primary" />

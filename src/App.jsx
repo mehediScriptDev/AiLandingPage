@@ -27,8 +27,8 @@ function App() {
         <UseCases/>
         <WhatItIs/>
         <FeaturesDetailed/>
-        <TrustBadge/>
-        <Features/>
+        {/* <TrustBadge/> */}
+        {/* <Features/> */}
         <StepsSection/>
         <Faq/>
         <Cta/>

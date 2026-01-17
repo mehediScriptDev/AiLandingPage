@@ -68,7 +68,7 @@ const TrustBadge = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-6 gap-2.5 mb-6">
           {/* Testimonial 1 */}
-          <div className="group relative overflow-hidden rounded-xl bg-[#0e0e0e] p-6 shadow-sm hover:shadow-xl transition-all duration-300">
+          <div className="group relative overflow-hidden rounded-xl bg-secondaryBg p-6 shadow-sm hover:shadow-xl transition-all duration-300">
             <div className="flex items-start gap-4 mb-4">
               <img 
                 src="https://randomuser.me/api/portraits/men/32.jpg" 
@@ -76,7 +76,7 @@ const TrustBadge = () => {
                 className="w-12 h-12 rounded-full object-cover shrink-0 ring-2 ring-primary/20"
               />
               <div className="flex-1 min-w-0">
-                <h4 className="font-semibold text-[#dbdbda] truncate">John Doe</h4>
+                <h4 className="font-semibold text-primaryText truncate">John Doe</h4>
                 <p className="text-xs text-gray-500">CEO, TechCorp</p>
               </div>
               <div className="text-primary text-3xl leading-none">"</div>
@@ -94,7 +94,7 @@ const TrustBadge = () => {
           </div>
 
           {/* Testimonial 2 */}
-          <div className="group relative overflow-hidden rounded-xl bg-[#0e0e0e] p-6 shadow-sm hover:shadow-xl transition-all duration-300">
+          <div className="group relative overflow-hidden rounded-xl bg-secondaryBg p-6 shadow-sm hover:shadow-xl transition-all duration-300">
             <div className="flex items-start gap-4 mb-4">
               <img 
                 src="https://randomuser.me/api/portraits/women/44.jpg" 
@@ -102,7 +102,7 @@ const TrustBadge = () => {
                 className="w-12 h-12 rounded-full object-cover shrink-0 ring-2 ring-primary/20"
               />
               <div className="flex-1 min-w-0">
-                <h4 className="font-semibold text-[#dbdbda] truncate">Sarah Mitchell</h4>
+                <h4 className="font-semibold text-primaryText truncate">Sarah Mitchell</h4>
                 <p className="text-xs text-gray-500">VP Sales, GlobalInc</p>
               </div>
               <div className="text-primary text-3xl leading-none">"</div>
@@ -120,7 +120,7 @@ const TrustBadge = () => {
           </div>
 
           {/* Testimonial 3 */}
-          <div className="group relative overflow-hidden rounded-xl bg-[#0e0e0e] p-6 shadow-sm hover:shadow-xl transition-all duration-300 ">
+          <div className="group relative overflow-hidden rounded-xl bg-secondaryBg p-6 shadow-sm hover:shadow-xl transition-all duration-300 ">
             <div className="flex items-start gap-4 mb-4">
               <img 
                 src="https://randomuser.me/api/portraits/men/75.jpg" 
@@ -128,7 +128,7 @@ const TrustBadge = () => {
                 className="w-12 h-12 rounded-full object-cover shrink-0 ring-2 ring-primary/20"
               />
               <div className="flex-1 min-w-0">
-                <h4 className="font-semibold text-[#dbdbda] truncate">Mike Rodriguez</h4>
+                <h4 className="font-semibold text-primaryText truncate">Mike Rodriguez</h4>
                 <p className="text-xs text-gray-500">Director, StartupHub</p>
               </div>
               <div className="text-primary text-3xl leading-none">"</div>

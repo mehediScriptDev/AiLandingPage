@@ -51,19 +51,19 @@ const Hero = () => {
             {/* Micro-points under CTA */}
             <ul className="lg:space-y-3 space-y-1.5 lg:pt-4 pt-2 text-gray-300">
               <li className="flex items-center gap-3">
-                <IoCheckmarkSharp className="w-5 h-5 text-primary flex-shrink-0" />
+                <IoCheckmarkSharp className="w-5 h-5 text-primary shrink-0" />
                 <span className=" text-sm xl:text-base">
                   Practice in simulated real-world sales conversations
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <IoCheckmarkSharp className="w-5 h-5 text-primary flex-shrink-0" />
+                <IoCheckmarkSharp className="w-5 h-5 text-primary shrink-0" />
                 <span className=" text-sm xl:text-base">
                   Get AI-driven feedback to refine your pitch
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <IoCheckmarkSharp className="w-5 h-5 text-primary flex-shrink-0" />
+                <IoCheckmarkSharp className="w-5 h-5 text-primary shrink-0" />
                 <span className=" text-sm xl:text-base">
                   Train consistently—without waiting for live reps
                 </span>

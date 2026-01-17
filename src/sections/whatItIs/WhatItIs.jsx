@@ -4,19 +4,20 @@ import { ArrowRight } from "lucide-react";
 
 const WhatItIs = () => {
   return (
-    <section id="what-it-is" className="py-16 lg:py-24  relative">
+    <section id="what-it-is" className="py-10 lg:py-20  relative">
       <div className="max-w-5xl w-11/12 mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-8 lg:mb-12 space-y-6">
+        <div className="text-center space-y-3 lg:space-y-6">
           <SectionTitle title="A smart training ground for serious closers." />
           
           <div className="max-w-3xl mx-auto space-y-6">
-            <p className="text-white/80 text-base lg:text-lg leading-relaxed">
+            <p className="lg:text-lg text-sm text-gray-300 leading-tight lg:leading-relaxed">
               Most reps don't get enough real practice before they're in front of a prospect. 
               SimuPitch AI gives you a realistic place to rehearse your pitch, pressure-test your 
               messaging, and improve fast—with AI-driven coaching that helps you identify what to 
               keep, what to tighten, and what to say next.
             </p>
+            
             
             <p className="text-primary text-xl lg:text-2xl font-bold italic">
               Stop "winging it." Start simming it.

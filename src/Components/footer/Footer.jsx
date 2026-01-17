@@ -19,13 +19,13 @@ const Footer = () => {
 
             <h3 className="lg:text-xl text-lg font-bold mb-4">Join The Sales Fix!</h3>
             
-            <div className="bg-gray-800 rounded-lg p-6 mb-4">
+            {/* <div className="bg-gray-800 rounded-lg p-6 mb-4">
               <div className="w-16 h-16 bg-gray-700 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-            </div>
+            </div> */}
 
             <p className="text-gray-400 text-sm leading-relaxed">
               A no-fluff, high-signal weekly newsletter built for home service pros who want to close more deals, train reps faster, and sharpen their sales process.
@@ -54,10 +54,7 @@ const Footer = () => {
               <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Painting</a></li>
               <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Roofing</a></li>
               <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">HVAC</a></li>
-              <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Landscaping & Lawncare</a></li>
-              <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Plumbing</a></li>
-              <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Windows & Doors</a></li>
-              <li><a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Chimney Services</a></li>
+              
             </ul>
           </div>
 
@@ -105,7 +102,7 @@ const Footer = () => {
         </div>
 
         {/* App Store Buttons */}
-        <div className="flex flex-wrap gap-4 mb-6 lg:mb-12">
+        {/* <div className="flex flex-wrap gap-4 mb-6 lg:mb-12">
           <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="bg-white text-black rounded-lg px-6 py-3 flex items-center gap-3 hover:bg-gray-100 transition-colors">
             <svg className="w-8 h-8" viewBox="0 0 24 24">
               <path fill="currentColor" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
@@ -124,12 +121,12 @@ const Footer = () => {
               <div className="text-lg font-semibold">App Store</div>
             </div>
           </a>
-        </div>
+        </div> */}
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-500 text-sm">© 2025 Sales Ask. All Rights Reserved.</p>
+            <p className="text-gray-500 text-sm">© SimuPitch AI. Simulate. Sell. Scale. Powered by AI.</p>
             <div className="flex items-center gap-6 text-sm">
               <a href="https://simupitch.ai/login" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
               <span className="text-gray-700">•</span>
