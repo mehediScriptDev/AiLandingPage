@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Youtube, Instagram, Linkedin } from 'lucide-react';
+import { Link } from 'react-router';
 
 const Footer = () => {
   return (
@@ -9,7 +10,11 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl font-bold tracking-tight uppercase text-primary">SimuPitch AI</span>
+              {/* <span className="text-2xl font-bold tracking-tight uppercase text-primary">SimuPitch AI</span> */}
+              
+              <Link to="/">
+              <img src="/images/logo.png" className='lg:w-48 w-32' alt="website logo" />
+              </Link>
             </div>
 
             <p className="text-gray-400 text-sm lg:text-base leading-relaxed">

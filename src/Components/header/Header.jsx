@@ -54,14 +54,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <span className="text-2xl uppercase font-bold font-secondary tracking-tight">
-            simupitch ai
-          </span>
-          <div className="flex gap-1">
-            <div className="w-1 h-4 bg-primary rounded-full"></div>
-            <div className="w-1 h-4 bg-primary rounded-full"></div>
-            <div className="w-1 h-4 bg-primary rounded-full"></div>
-          </div>
+          <button onClick={() => scrollToSection('hero')} className="cursor-pointer">
+            <img src="/images/logo.png" className="lg:w-48 w-32" alt="SimuPitch AI Logo" />
+          </button>
         </div>
 
         {/* Navigation - Desktop */}
