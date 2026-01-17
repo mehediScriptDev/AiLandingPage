@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
 
             {/* Micro-points under CTA */}
-            <ul className='lg:space-y-3 space-y-1.5 lg:pt-4 pt-2 text-gray-300'>
+            {/* <ul className='lg:space-y-3 space-y-1.5 lg:pt-4 pt-2 text-gray-300'>
               <li className='flex items-center lg:gap-3 gap-1.5'>
                 <IoCheckmarkSharp className='lg:w-5 lg:h-5 w-4 h-4 text-primary shrink-0' />
                 <span className='text-xs sm:text-sm xl:text-base'>
@@ -68,7 +68,7 @@ const Hero = () => {
                   Train consistently—without waiting for live reps
                 </span>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div>
             {/* Plumber Image with white outline */}
