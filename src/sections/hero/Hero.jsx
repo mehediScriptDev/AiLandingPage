@@ -12,8 +12,8 @@ const Hero = () => {
       style={{
         backgroundImage: `url(images/herobg.jpg)`,
         backgroundSize: "cover",
-        backgroundPosition: "top",
-        // height: "98vh",
+        backgroundPosition: "top" ,
+        // height: "98vh" ,
       }}
     >
       {/* background main gradient color */}
