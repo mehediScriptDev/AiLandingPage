@@ -4,7 +4,7 @@ import SectionSubTitle from "../../Components/common/SectionSubTitle";
 
 const Cta = () => {
   return (
-    <section className="bg-linear-to-r from-black/30 via-primary/10 to-black/30 max-w-7xl border border-gray-800 w-11/12 mx-auto rounded-lg text-white mb-10 py-10 lg:py-20">
+    <section className="bg-linear-to-r from-secondaryBg/40 via-primary/20 to-secondaryBg/40 max-w-7xl border border-gray-600 w-11/12 mx-auto rounded-lg text-white mb-10 py-10 lg:py-20">
       <div className="max-w-4xl mx-auto px-6 lg:px-10 text-center flex items-center flex-col justify-center">
         {/* Headline */}
         <div className="mb-3 lg:mb-6 ">
@@ -26,7 +26,7 @@ const Cta = () => {
             href="https://simupitch.ai/login"
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-primary text-white font-semibold lg:px-8 lg:py-4 px-6 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl justify-center w-full sm:w-fit"
+            className="group bg-primary text-secondaryBg font-semibold lg:px-8 lg:py-4 px-6 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl justify-center w-full sm:w-fit"
           >
             Get Started
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

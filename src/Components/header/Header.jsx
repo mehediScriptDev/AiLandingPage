@@ -49,13 +49,13 @@ const Header = () => {
 
   return (
     <header className={`fixed top-0 w-full z-50 text-white py-4 px-6 transition-all duration-300 ${
-      isScrolled ? 'bg-[#1b1311]/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isScrolled ? 'bg-primary/45 backdrop-blur-md shadow-lg ' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <button onClick={() => scrollToSection('hero')} className="cursor-pointer">
-            <img src="/images/logo.png" className="lg:w-48 w-32" alt="SimuPitch AI Logo" />
+            <img src="/images/pinklogo.png" className="lg:w-48 w-32" alt="SimuPitch AI Logo" />
           </button>
         </div>
 
@@ -78,7 +78,7 @@ const Header = () => {
           <Link 
             to={"https://simupitch.ai/login"} 
             target="_blank" 
-            className="bg-primary hover:bg-primary/90 cursor-pointer text-white text-sm font-medium px-6 py-2.5 rounded-full transition-all"
+            className="bg-primary hover:bg-primary/90 cursor-pointer text-secondaryBg text-sm font-medium px-6 py-2.5 rounded-full transition-all"
           >
             Get Started
           </Link>
@@ -101,11 +101,11 @@ const Header = () => {
         isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
       }`}>
         <nav className="flex flex-col h-full  -mt-3 z-50 bg-black">
-          <ul className="flex flex-col gap-6 p-6 text-lg bg-[#1b1311]/95">
+          <ul className="flex flex-col gap-6 p-6 text-lg bg-[#1F1F35]/95">
             {links}
           </ul>
           
-          <div className="mt-auto space-y-4 p-6 bg-[#1b1311]/95 pb-8 border-b border-gray-800">
+          <div className="mt-auto space-y-4 p-6 bg-[#1F1F35]/95 pb-8 border-b border-gray-800">
             <Link
               to="https://simupitch.ai/login"
               target="_blank"
