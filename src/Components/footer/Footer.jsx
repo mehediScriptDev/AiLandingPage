@@ -47,7 +47,7 @@ const Footer = () => {
           {/* Company Links */}
           <div className="">
             <h3 className="text-lg text-primaryText font-semibold mb-6">Company</h3>
-            <ul className="space-y-3">
+            <ul className="lg:space-y-3 space-y-1.5">
               <li>
                 <button
                   onClick={() => scrollToSection('how-it-works')}
@@ -85,7 +85,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="">
             <h3 className="text-lg text-primaryText font-semibold mb-6">Quick Links</h3>
-            <ul className="space-y-3">
+            <ul className="lg:space-y-3 space-y-1.5">
               <li>
                 <button
                   onClick={() => scrollToSection('what-it-is')}
