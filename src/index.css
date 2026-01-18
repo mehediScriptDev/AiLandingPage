@@ -9,13 +9,15 @@
 }
 
 @theme{
-    --color-primary: #ff4b24;
+    /* Pink from SimuPitch AI logo */
+    --color-primary: #FF99B4;
 }
 
 @theme{
-    --color-primaryBg:#261b18;
-    --color-secondaryBg:#0e0e0e;
-    --color-primaryText:#dbdbda;
+    /* Deep navy/purple - dark vibe that makes pink pop */
+    --color-primaryBg: #2E2E4A;
+    --color-secondaryBg: #252540;
+    --color-primaryText: #E8E8F0;
 }
 .container{
     @apply max-w-7xl mx-auto lg:py-20 py-10 w-11/12;

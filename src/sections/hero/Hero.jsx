@@ -17,8 +17,8 @@ const Hero = () => {
       }}
     >
       {/* background main gradient color */}
-      <div className="bg-black/95 absolute inset-0 z-0"></div>
-      <div className="bg-linear-to-b absolute inset-0 z-10 h- from-primary/20 via-black/30 to-black/30"></div>
+      <div className="bg-secondaryBg/95 absolute inset-0 z-0"></div>
+      <div className="bg-linear-to-b absolute inset-0 z-10 h- from-white/40 via-secondaryBg/50 to-secondaryBg/50"></div>
       <div className="max-w-7xl w-11/12 mx-auto lg:pt-8 relative z-40 flex flex-col items-center pt-28  ">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 gap-6 items-center w-full">
           {/* Left Content */}
@@ -32,7 +32,7 @@ const Hero = () => {
                 href="https://simupitch.ai/login"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-primary w-full text-white font-semibold text-sm lg:text-base lg:px-8 px-4 py-2.5 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg justify-center hover:shadow-xl sm:w-fit"
+                className="group bg-primary w-full text-secondaryBg font-semibold text-sm lg:text-base lg:px-8 px-4 py-2.5 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg justify-center hover:shadow-xl sm:w-fit"
               >
                 Start Practicing
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -73,7 +73,7 @@ const Hero = () => {
           <div>
             {/* Plumber Image with white outline */}
             <div className="relative">
-              <div className="lg:absolute lg:inset-0 bg-white rounded-full blur-3xl opacity-20"></div>
+              <div className="lg:absolute lg:inset-0 bg-black rounded-full blur-3xl opacity-20"></div>
               <img
                 src="images/bbg1.png"
                 className="relative z-10 sm:w-96 lg:w-150 xl:w-auto mx-auto rounded-lg"

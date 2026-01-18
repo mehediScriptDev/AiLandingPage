@@ -87,7 +87,7 @@ export const StepsSection = () => {
                   <div
                     className="relative flex h-12 w-12 items-center justify-center
     rounded-full bg-primary backdrop-blur-xl
-    text-lg font-bold text-white shadow-lg
+    text-lg font-bold text-secondaryBg shadow-lg
   "
                   >
                     {step.number}
