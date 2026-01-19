@@ -69,14 +69,14 @@ const Header = () => {
         {/* Action Buttons - Desktop */}
         <div className="hidden lg:flex items-center gap-4">
           <Link
-            to="https://simupitch.ai/login"
+            to="https://simupitch.ai/register"
             target="_blank"
             className="text-sm hover:text-primary transition-colors"
           >
             Login
           </Link>
           <Link 
-            to={"https://simupitch.ai/login"} 
+            to={"https://simupitch.ai/register"} 
             target="_blank" 
             className="bg-primary hover:bg-primary/90 cursor-pointer text-secondaryBg text-sm font-medium px-6 py-2.5 rounded-full transition-all"
           >
@@ -107,7 +107,7 @@ const Header = () => {
           
           <div className="mt-auto space-y-4 p-6 bg-[#1F1F35]/95 pb-8 border-b border-gray-800">
             <Link
-              to="https://simupitch.ai/login"
+              to="https://simupitch.ai/register"
               target="_blank"
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-center py-3 text-white border border-white/20 rounded-full hover:bg-white/10 transition-all"
@@ -115,7 +115,7 @@ const Header = () => {
               Log in
             </Link>
             <Link
-              to="https://simupitch.ai/login"
+              to="https://simupitch.ai/register"
               target="_blank"
               onClick={() => setIsMenuOpen(false)}
               className="block w-full text-center py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-all"

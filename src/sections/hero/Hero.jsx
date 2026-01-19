@@ -13,7 +13,6 @@ const Hero = () => {
         backgroundImage: `url(images/herobg.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "top",
-        // height: "98vh",
       }}
     >
       {/* background main gradient color */}
@@ -29,7 +28,7 @@ const Hero = () => {
 
             <div className="flex sm:flex-row flex-col w-full items-center gap-3 sm:gap-4">
               <a
-                href="https://simupitch.ai/login"
+                href="https://simupitch.ai/register"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group bg-primary w-full text-secondaryBg font-semibold text-sm lg:text-base lg:px-8 px-4 py-2.5 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg justify-center hover:shadow-xl sm:w-fit"
@@ -38,7 +37,7 @@ const Hero = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
-                href="https://simupitch.ai/login"
+                href="https://simupitch.ai/register"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group border border-primaryText/30 text-primaryText font-semibold text-sm lg:text-base lg:px-8 px-4 py-2.5 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-full justify-center sm:w-fit"
@@ -77,9 +76,7 @@ const Hero = () => {
               <img
                 src="images/bbg1.png"
                 className="relative z-10 sm:w-96 lg:w-150 xl:w-auto mx-auto rounded-lg"
-                // style={{
-                //   filter: "drop-shadow(0 0 20px rgba(255, 255, 255, 0.3))",
-                // }}
+                
               />
             </div>
           </div>
