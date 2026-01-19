@@ -96,7 +96,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://simupitch.ai/register"
+                  href="https://simupitch.ai/login"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/75 hover:text-white transition-colors text-sm font-medium"
@@ -142,3 +142,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
