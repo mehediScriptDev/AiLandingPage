@@ -32,7 +32,7 @@ const Cta = () => {
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="https://simupitch.ai/register"
+            href="https://simupitch.ai/login"
             target="_blank"
             rel="noopener noreferrer"
             className="group border border-white/30 text-white font-semibold lg:px-8 lg:py-4 px-6 py-3 text-sm lg:text-base rounded-lg transition-all flex items-center gap-2 shadow-lg justify-center hover:shadow-xl hover:border-white/50 w-full sm:w-fit"
