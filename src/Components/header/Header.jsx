@@ -69,7 +69,7 @@ const Header = () => {
         {/* Action Buttons - Desktop */}
         <div className="hidden lg:flex items-center gap-4">
           <Link
-            to="https://simupitch.ai/register"
+            to="https://simupitch.ai/login"
             target="_blank"
             className="text-sm hover:text-primary transition-colors"
           >
