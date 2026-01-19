@@ -26,7 +26,7 @@ const WhatItIs = () => {
 
           <div className="pt-6">
             <a
-              href="https://simupitch.ai/login"
+              href="https://simupitch.ai/register"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-primary text-secondaryBg font-semibold text-sm lg:text-base px-6 lg:px-8 py-3 lg:py-4 rounded-lg transition-all flex items-center gap-2 shadow-lg hover:shadow-xl w-fit mx-auto"

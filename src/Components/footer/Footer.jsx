@@ -96,7 +96,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://simupitch.ai/login"
+                  href="https://simupitch.ai/register"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/75 hover:text-white transition-colors text-sm font-medium"
@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://simupitch.ai/login"
+                  href="https://simupitch.ai/register"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/75 hover:text-white transition-colors text-sm font-medium"
@@ -116,7 +116,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://simupitch.ai/login"
+                  href="https://simupitch.ai/register"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/75 hover:text-white transition-colors text-sm font-medium"
